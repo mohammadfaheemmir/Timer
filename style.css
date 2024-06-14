@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(orange,red);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family:cursive ;
+}
+
+span{
+    font-size: 2rem;
+
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    margin: 1rem;
+}
